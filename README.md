@@ -4,7 +4,8 @@
 
 Trouver les points-selles dans une matrice
 
-Avec une matrice comme celle-ci:
+Avec une matrice comme celle-ci (les ligne et colonne `0 1 2` ne sont là 
+que pour identifier les numéros de ligne et colonne):
 
 ```text
     0  1  2
@@ -17,8 +18,9 @@ Avec une matrice comme celle-ci:
 Elle a un point-selle en (1, 0) (abscisse (x): 1, ordonnée (y): 0).
 
 On appelle point-selle (ou point minimax) un emplacement dans une 
-matrice tel que sa valeur soit la plus grande dans sa ligne et la 
-plus petite dans sa colonne.  
+matrice tel que sa valeur soit la plus grande de sa ligne et la 
+plus petite de sa colonne.  
+
 Plus précisement, un "point-selle" est
 supérieur ou égal à tous les élèments de sa ligne et inférieur ou égal
 à tous les élèments de sa colonne.  
