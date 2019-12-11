@@ -2,7 +2,7 @@
 
 > Kata tiré (encore !) de l'excellent site [Exercism.io](https://exercism.io/)
 
-Trouver les points-selles dans une matrice
+Trouver les points-selles dans une matrice.
 
 Avec une matrice comme celle-ci (les ligne et colonne `0 1 2` ne sont là 
 que pour identifier les numéros de ligne et colonne):
@@ -37,9 +37,9 @@ Pour les curieux, ces points-selles ont une autre utilité que celle de
 fournir la matière à un bon kata (!), par exemple en 
 [théorie des jeux](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_du_minimax_de_von_Neumann#Points-selles_dans_les_matrices_de_gain)
 
-Votre code doit être capable de fournir la liste (potentiellemnt vide) de
-tous les points-selles four n'importe quelle matrice donnée gracieusement 
-(on vous gâte) par l'équipe !
+Votre code doit être capable de fournir la liste (potentiellement vide si 
+la matrice ne possède pas de points-selles) de tous les points-selles pour 
+n'importe quelle matrice donnée gracieusement (on vous gâte) par l'équipe !
 
 Les matrices peuvent ne pas être carrées, c'est-à-dire, ne pas avoir le 
 même nombre de lignes que de colonnes, par exemple une matrice de 3 lignes
